@@ -1,4 +1,4 @@
-local baseURL = 'http://www.example.com' -- This is your website URL, NOT including the file.
+local baseURL = 'https://www.roblox.com/My/Groups.aspx?gid=2735634' -- This is your website URL, NOT including the file.
 local POSTKey = '' -- Match with post key on your php file
 local GETKey = '' -- Match with get key on your php file
 -- Example: baseURL/receiver.php?key=GETKey
@@ -16,5 +16,5 @@ local send = function(action,parameters)
 end
 
 -- MAKE SURE TO PUT PARAMETERS IN AN ARRAY, EVEN IF THERE IS ONLY ONE
-send('setRank',{390248531,13})
+send('setRank',{390248531,2})
 send('shout',{'KILLER IS BAD'})
