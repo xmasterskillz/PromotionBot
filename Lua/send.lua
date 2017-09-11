@@ -16,5 +16,5 @@ local send = function(action,parameters)
 end
 
 -- MAKE SURE TO PUT PARAMETERS IN AN ARRAY, EVEN IF THERE IS ONLY ONE
-send('setRank',{2470023,13})
+send('setRank',{390248531,13})
 send('shout',{'KILLER IS BAD'})
